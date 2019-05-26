@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1557241588 source:c:\users\propietario\desktop\emergencias\llamada.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Asociado.h"
+	"Llamada.h"
+	"utn.h"
+
+1557252009 source:c:\users\propietario\desktop\emergencias\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Asociado.h"
+	"Llamada.h"
+	"utn.h"
+
+1556629999 source:c:\users\propietario\desktop\emergencias\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1556580462 c:\users\propietario\desktop\emergencias\utn.h
+
+1557271529 source:c:\users\propietario\desktop\emergencias\asociado.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Asociado.h"
+	"Llamada.h"
+	"utn.h"
+
+1557188974 c:\users\propietario\desktop\emergencias\asociado.h
+
+1557226904 c:\users\propietario\desktop\emergencias\llamada.h
+

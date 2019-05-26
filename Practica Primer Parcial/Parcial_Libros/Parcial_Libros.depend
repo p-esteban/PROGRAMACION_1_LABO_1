@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1557952575 source:c:\users\propietario\desktop\parcial_libros\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1557952575 c:\users\propietario\desktop\parcial_libros\utn.h
+
+1557935076 source:c:\users\propietario\desktop\parcial_libros\autores.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"autores.h"
+	"libros.h"
+
+1557839232 c:\users\propietario\desktop\parcial_libros\autores.h
+
+1557977728 source:c:\users\propietario\desktop\parcial_libros\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"libros.h"
+	"autores.h"
+	"socios.h"
+	"prestamos.h"
+	"informes.h"
+	"fecha.h"
+
+1557762744 c:\users\propietario\desktop\parcial_libros\socios.h
+
+1557952258 source:c:\users\propietario\desktop\parcial_libros\socios.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"socios.h"
+
+1557952035 source:c:\users\propietario\desktop\parcial_libros\libros.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"autores.h"
+	"libros.h"
+
+1557839177 c:\users\propietario\desktop\parcial_libros\libros.h
+	"autores.h"
+
+1557840746 c:\users\propietario\desktop\parcial_libros\prestamos.h
+
+1557977411 source:c:\users\propietario\desktop\parcial_libros\prestamos.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"socios.h"
+	"libros.h"
+	"fecha.h"
+	"prestamos.h"
+
+1557975091 c:\users\propietario\desktop\parcial_libros\informes.h
+
+1557977951 source:c:\users\propietario\desktop\parcial_libros\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"socios.h"
+	"libros.h"
+	"prestamos.h"
+	"informes.h"
+
+1557966362 source:c:\users\propietario\desktop\parcial_libros\fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+	"fecha.h"
+
+1557965190 c:\users\propietario\desktop\parcial_libros\fecha.h
+

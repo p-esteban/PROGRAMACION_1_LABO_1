@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1555452173 source:/home/alumno/Esteban/Clase_07_16abr/utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1555316670 /home/alumno/Esteban/Clase_07_16abr/utn.h
+
+1555461490 source:/home/alumno/Esteban/Clase_07_16abr/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1555462972 source:c:\users\adriana\desktop\clase_07_16abr\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1555327470 c:\users\adriana\desktop\clase_07_16abr\utn.h
+
+1555462972 source:c:\users\propietario\desktop\clase_07_16abr\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1555327470 c:\users\propietario\desktop\clase_07_16abr\utn.h
+

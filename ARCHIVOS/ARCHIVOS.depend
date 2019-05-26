@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1558648596 source:/home/alumno/Esteban/ARCHIVOS/main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1558648522 /home/alumno/Esteban/ARCHIVOS/persona.h
+
+1558648522 source:/home/alumno/Esteban/ARCHIVOS/persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"persona.h"
+
+1558046846 /home/alumno/Esteban/ARCHIVOS/utn.h
+
+1558046846 source:/home/alumno/Esteban/ARCHIVOS/utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
