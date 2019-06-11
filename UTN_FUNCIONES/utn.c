@@ -129,7 +129,7 @@ int utn_isValidSurName (char* cadena)
     for( i=0 ; cadena[i] != '\0'  ; i++)
     {
         if((cadena[i] > 'Z' || cadena[i] < 'A') && (cadena[i] > 'z' || cadena[i] < 'a') &&
-           (cadena [i] != toascii(39) || cadena [i] != ' ')  )
+           (cadena [i] != toascii(39) || cadena [i] != ' ') && cadena[i] != '-'  )
         {
             retorno = FALSE;
             break;
