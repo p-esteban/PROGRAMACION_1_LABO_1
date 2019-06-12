@@ -819,7 +819,7 @@ int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reinte
 
             if(!utn_getString(msg,msgError,minSize,maxSize,reintentos,bufferStr)) //==0 sin errores !0
             {
-                if(isValidTexto(bufferStr)==1)
+                if(utn_isValidTexto(bufferStr)==1)
                 {
                     strncpy(input,bufferStr,maxSize);
                     retorno=0;
@@ -827,7 +827,7 @@ int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reinte
                 }
                 else
                 {
-                    printf("%s 2",msgError);
+                    printf("%s",msgError);
                     reintentos--;
                 }
             }
@@ -837,7 +837,7 @@ int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reinte
     return retorno;
 }
 
-int isValidTexto(char* stringRecibido)
+int utn_isValidTexto(char* stringRecibido)
 {
     int retorno=1;  // para las funciones isValid arranco con verdadero y cambio cuando encuentro un error
     int i;

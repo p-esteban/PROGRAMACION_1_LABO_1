@@ -280,7 +280,7 @@ int utn_getChar(char* msg, char* msgError, int min, int max, int reintentos, cha
 int isValidChar(char* charRecibido, int min, int max);
 
 int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reintentos, char* input);
-int isValidTexto(char* stringRecibido);
+int utn_isValidTexto(char* stringRecibido);
 
 int utn_getAlfanumerico(char* msg, char* msgError, int minSize, int maxSize, int reintentos, char* input);
 int isValidAlphanumeric(char* stringRecibido);
