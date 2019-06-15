@@ -1,0 +1,258 @@
+# depslib dependency file v1.0
+1558048602 source:/home/alumno/Esteban/Prieto_Esteban_Parcial1/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+	"orquesta.h"
+
+1558461724 h"
+
+1557941776 /home/alumno/Esteban/Prieto_Esteban_Parcial1/utn.h
+
+1558044315 source:/home/alumno/Esteban/Prieto_Esteban_Parcial1/utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1558467140 
+
+1558046855 source:/home/alumno/Esteban/Prieto_Esteban_Parcial1/instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1558466761 to.h"
+
+1558046030 /home/alumno/Esteban/Prieto_Esteban_Parcial1/instrumento.h
+
+1558047033 /home/alumno/Esteban/Prieto_Esteban_Parcial1/orquesta.h
+
+1558047807 source:/home/alumno/Esteban/Prieto_Esteban_Parcial1/orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558455962 source:/home/alumno/1erParcial/instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1558046846 /home/alumno/1erParcial/utn.h
+
+1558451450 /home/alumno/1erParcial/instrumento.h
+
+1558475803 source:/home/alumno/1erParcial/orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558475458 /home/alumno/1erParcial/orquesta.h
+
+1558046846 source:/home/alumno/1erParcial/utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1558476291 source:/home/alumno/1erParcial/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+	"orquesta.h"
+	"musico.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+	"orquesta.h"
+	"musico.h"
+	"informes.h"
+
+1558220108 /home/alumno/1erParcial/musico.h
+	"instrumento.h"
+	"instrumento.h"
+	"orquesta.h"
+
+1558479069 source:/home/alumno/1erParcial/musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+
+1558892281 source:c:\users\propietario\desktop\1erparcial\instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1558500875 c:\users\propietario\desktop\1erparcial\utn.h
+
+1558891118 c:\users\propietario\desktop\1erparcial\instrumento.h
+
+1558892283 source:c:\users\propietario\desktop\1erparcial\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+	"orquesta.h"
+	"musico.h"
+	"informes.h"
+
+1558890512 c:\users\propietario\desktop\1erparcial\orquesta.h
+
+1558891383 c:\users\propietario\desktop\1erparcial\musico.h
+	"instrumento.h"
+	"orquesta.h"
+
+1558892798 source:c:\users\propietario\desktop\1erparcial\musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+
+1558892280 source:c:\users\propietario\desktop\1erparcial\orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558500875 source:c:\users\propietario\desktop\1erparcial\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1558896006 source:c:\users\propietario\desktop\1erparcial\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"instrumento.h"
+	"orquesta.h"
+	"informes.h"
+
+1558889778 c:\users\propietario\desktop\1erparcial\informes.h
+
+1558482793 /home/alumno/1erParcial/informes.h
+
+1558482526 source:/home/alumno/1erParcial/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"instrumento.h"
+	"orquesta.h"
+	"informes.h"
+
+1559261981 source:c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1559261981 c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\utn.h
+
+1559261981 c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\instrumento.h
+
+1559261981 source:c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+	"orquesta.h"
+	"musico.h"
+	"informes.h"
+
+1559261981 c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\orquesta.h
+
+1559261981 c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\musico.h
+	"instrumento.h"
+	"orquesta.h"
+
+1559261981 c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\informes.h
+
+1559261981 source:c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+
+1559261981 source:c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1559261981 source:c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1559261981 source:c:\users\propietario\desktop\primerparcial_definitivo\parcial1_v_0\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"instrumento.h"
+	"orquesta.h"
+	"informes.h"
+
