@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdio.h>
+#include <stdio_ext.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include "utn.h"
@@ -44,8 +45,8 @@ int utn_getString ( char* msg,
     if (bufferS != NULL && limitMax > 0)
     {
         fgets(bufferString, sizeof(bufferString), stdin);
-        fflush(stdin);
-        //_fpurge(stdin)
+        //fflush(stdin);
+        __fpurge(stdin);
         if(bufferString[strlen(bufferString)-1]=='\n')
         {
             bufferString[strlen(bufferString)-1] = '\0';
@@ -356,24 +357,22 @@ int utn_isValidFloat (char* cadena)
 
 int utn_getTelephone ( char* msg,
                        char* msgError,
-                       int minimo,
-                       int maximo,
                        int limitMax,
                        int limitMin,
                        int reintentos,
-                       int* resultado)
+                       char* resultado)
 {
     int retorno = -1;
     char bufferStr[4096];
-    int buffer;
-    if(msg != NULL && msgError != NULL && limitMin < limitMax && reintentos>=0 && resultado != NULL && minimo < maximo)
+    //int buffer;
+    if(msg != NULL && msgError != NULL && limitMin < limitMax && reintentos>=0 && resultado != NULL )
     {
         if(!utn_getString(msg,msgError,limitMin,limitMax,reintentos,bufferStr))
         {
-            if(utn_isValidTelephone(bufferStr) && utn_isValidRank(bufferStr, minimo, maximo))
+            if(utn_isValidTelephone(bufferStr))
             {
-                buffer = atoi(bufferStr);
-                *resultado = buffer;
+                strncpy(resultado,bufferStr,strlen(resultado));
+                //*resultado = buffer;
                 retorno = 0;
             }
         }
@@ -485,12 +484,12 @@ int utn_isValidCuit (char* cadena)
                 }
         }
     }
-
-    if (utn_isValidDigitoVerificador(cadena))
+    /*
+    if (!utn_isValidDigitoVerificador(cadena))
     {
         retorno = FALSE;
     }
-
+    */
     return retorno;
 }
 
@@ -507,21 +506,16 @@ int utn_isValidDigitoVerificador (char* cadena )
 
     int total = 0;
     int verificador;
-    //utn_eliminarCarcter(cadena, '-', strlen(cadena-1));
+
     for( i=0 ;  i < strlen(cadena-1); i++)
     {
-        total += cadena[i]*mult[i];
+        total += mult[i] * cadena[i];
         //printf(" pos i %d valor mult: %d valor cadena: %s  total: %d\n", i, mult, cadena, total);
     }
     //printf(" pos i %d \n", total);
     verificador = LONG_CUIT - (total % LONG_CUIT);
     //printf("digito %d \n",verificador);
-
-    if(verificador == 11)
-	{
-		verificador = 0;
-	}
-	if(verificador != cadena[11])////revisar
+    if(verificador != cadena[11])////revisar
     {
         retorno = FALSE;
     }
@@ -765,6 +759,144 @@ int getArrayInt(    char* msg,
     return retorno;
 }
 
+////////////get char////////////////
+
+int utn_getChar(char* msg, char* msgError, int min, int max, int reintentos, char* resultado)
+{
+    int retorno=-1;
+    char bufferChar[256];
+
+    if(msg!=NULL && msgError!=NULL && min<=max && reintentos>=0 && resultado!=NULL)
+    {
+        do
+        {
+
+            if(!utn_getString(msg,msgError,1,3,reintentos,bufferChar)) //==0
+            {
+                if(isValidChar(bufferChar, min, max))
+                {
+                    printf("OK");
+                    *resultado=bufferChar[0];
+                    retorno=0;
+                    break;
+                }
+                else
+                {
+                    printf("%s 2",msgError);
+                    reintentos--;
+                }
+            }
+        }
+        while(reintentos>=0);
+    }
+    return retorno;
+}
+
+int isValidChar(char* charRecibido, int min, int max)
+{
+    int i;
+    int retorno=1;  // para las funciones isValid arranco con verdadero y cambio cuando encuentro un error
+    for( i=0 ; charRecibido[i] != '\0'  ; i++)
+    {
+        if(charRecibido[i]<'A' || (charRecibido[i]>'Z' && charRecibido[i]<'a') || charRecibido[i]>'z')
+        {
+            if(charRecibido[i]>=min && charRecibido[i] <= max)//valida rango
+            retorno=0;
+        }
+    }
+    return retorno;
+}
+////////////
+
+int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reintentos, char* input)
+{
+    int retorno=-1;
+    char bufferStr[maxSize];
+
+    if(msg!=NULL && msgError!=NULL && minSize<maxSize && reintentos>=0 && input!=NULL)
+    {
+        do
+        {
+
+            if(!utn_getString(msg,msgError,minSize,maxSize,reintentos,bufferStr)) //==0 sin errores !0
+            {
+                if(utn_isValidTexto(bufferStr)==1)
+                {
+                    strncpy(input,bufferStr,maxSize);
+                    retorno=0;
+                    break;
+                }
+                else
+                {
+                    printf("%s",msgError);
+                    reintentos--;
+                }
+            }
+        }
+        while(reintentos>=0);
+    }
+    return retorno;
+}
+
+int utn_isValidTexto(char* stringRecibido)
+{
+    int retorno=1;  // para las funciones isValid arranco con verdadero y cambio cuando encuentro un error
+    int i;
+    for(i=0;stringRecibido[i]!='\0';i++)
+    {
+        if(stringRecibido[i]<' ' || stringRecibido[i]>'z')
+        {
+            retorno=0;
+            break;
+        }
+    }
+    return retorno;
+}
+
+//*************************************************************
+int utn_getAlfanumerico(char* msg, char* msgError, int minSize, int maxSize, int reintentos, char* input)
+{
+    int retorno=-1;
+    char bufferStr[maxSize];
+
+    if(msg!=NULL && msgError!=NULL && minSize<maxSize && reintentos>=0 && input!=NULL)
+    {
+        do
+        {
+            if(!utn_getString(msg,msgError,minSize,maxSize,reintentos,bufferStr)) //==0 sin errores !0
+            {
+                if(isValidAlphanumeric(bufferStr)==1)
+                {
+                    strncpy(input,bufferStr,maxSize);
+                    retorno=0;
+                    break;
+                }
+                else
+                {
+                    printf("%s 2",msgError);
+                    reintentos--;
+                }
+            }
+        }
+        while(reintentos>=0);
+    }
+    return retorno;
+}
+
+int isValidAlphanumeric(char* stringRecibido)
+{
+    int retorno=1;  // para las funciones isValid arranco con verdadero y cambio cuando encuentro un error
+    int i;
+    for(i=0;stringRecibido[i]!='\0';i++)
+    {
+        if(stringRecibido[i]<'0' || (stringRecibido[i]>'9' && stringRecibido[i]<'A') || (stringRecibido[i]>'Z' && stringRecibido[i]<'a') || stringRecibido[i]>'z' )
+        {
+            retorno=0;
+            break;
+        }
+    }
+    return retorno;
+}
 
 
 

@@ -171,7 +171,7 @@ int utn_isValidRankFloat (char* cadena, float minimo, float maximo);
 *
 */
 //----- ENTERO ---------
-int utn_getInt   (char* msg,
+int utn_getInt    (char* msg,
                    char* msgError,
                    int minimo,
                    int maximo,
@@ -179,6 +179,7 @@ int utn_getInt   (char* msg,
                    int limitMin,
                    int reintentos,
                    int* resultado);
+
 int utn_isValidInt (char* cadena);
 
 
@@ -198,12 +199,10 @@ int utn_isValidInt (char* cadena);
 
 int utn_getTelephone ( char* msg,
                        char* msgError,
-                       int minimo,
-                       int maximo,
                        int limitMax,
                        int limitMin,
                        int reintentos,
-                       int* resultado);
+                       char* resultado);
 
 int utn_isValidTelephone (char* cadena);
 
@@ -276,5 +275,13 @@ int utn_isValidDni (char* pStr);
 
 
 
+/////////
+int utn_getChar(char* msg, char* msgError, int min, int max, int reintentos, char* resultado);
+int isValidChar(char* charRecibido, int min, int max);
 
+int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reintentos, char* input);
+int utn_isValidTexto(char* stringRecibido);
+
+int utn_getAlfanumerico(char* msg, char* msgError, int minSize, int maxSize, int reintentos, char* input);
+int isValidAlphanumeric(char* stringRecibido);
 
