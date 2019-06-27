@@ -152,6 +152,9 @@ int utn_getFloatSigne (char* msg,
                        int reintentos,
                        float* resultado);
 
+int utn_isValidFloat (char* cadena);
+
+int utn_isValidRankFloat (char* cadena, float minimo, float maximo);
 
 
 /**

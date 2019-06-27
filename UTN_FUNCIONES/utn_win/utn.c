@@ -44,13 +44,13 @@ int utn_getString ( char* msg,
     if (bufferS != NULL && limitMax > 0)
     {
         fgets(bufferString, sizeof(bufferString), stdin);
-        //fflush(stdin);
-        _fpurge(stdin)
+        fflush(stdin);
+        //_fpurge(stdin)
         if(bufferString[strlen(bufferString)-1]=='\n')
         {
             bufferString[strlen(bufferString)-1] = '\0';
         }
-        if (strlen(bufferString)<= limitMax)
+        if (strlen(bufferString)<= limitMax);
         {
         strcpy(bufferS, bufferString);
 
@@ -500,7 +500,7 @@ int utn_isValidDigitoVerificador (char* cadena )
 
     int retorno = TRUE;
     int i;
-    int mult [10] = {2,3,4,5,6,7,2,3,4,5};//= "5432765432";//{'5', '4', '3', '2', '7', '6', '5', '4', '3', '2', '\0'} ;//revisar
+    int mult [10] = {2,3,4,5,6,7,2,3,4,5};//revisar
 
 
     int total = 0;
@@ -774,7 +774,7 @@ int utn_getChar(char* msg, char* msgError, int min, int max, int reintentos, cha
             {
                 if(isValidChar(bufferChar, min, max))
                 {
-                    //printf("OK");
+                    printf("OK");
                     *resultado=bufferChar[0];
                     retorno=0;
                     break;
@@ -819,7 +819,7 @@ int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reinte
 
             if(!utn_getString(msg,msgError,minSize,maxSize,reintentos,bufferStr)) //==0 sin errores !0
             {
-                if(isValidTexto(bufferStr)==1)
+                if(utn_isValidTexto(bufferStr)==1)
                 {
                     strncpy(input,bufferStr,maxSize);
                     retorno=0;
@@ -827,7 +827,7 @@ int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reinte
                 }
                 else
                 {
-                    printf("%s 2",msgError);
+                    printf("%s",msgError);
                     reintentos--;
                 }
             }

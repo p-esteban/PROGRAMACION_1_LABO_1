@@ -7,9 +7,9 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="utn.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="utn.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="23305" topLine="420" />
+			<Cursor1 position="23305" topLine="426" />
 		</Cursor>
 		<Folding>
 			<Collapse line="33" />
@@ -24,9 +24,9 @@
 			<Collapse line="311" />
 		</Folding>
 	</File>
-	<File name="utn.h" open="1" top="1" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="utn.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3625" topLine="117" />
+			<Cursor1 position="3625" topLine="112" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
