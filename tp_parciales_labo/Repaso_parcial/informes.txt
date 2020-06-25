@@ -1,0 +1,8 @@
+*****************
+Informe ventas
+*****************
+Cantidad total de entregas 13
+- Cantidad total de entregas: 5  (GOLD)- 6 (REGUAR) - 2 (PLUS)
+- Cantidad total de bultos entregados: 17
+- Promedio de bultos por entrega: 1
+- Importe promedio por entrega: 15.230769

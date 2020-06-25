@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1560566726 source:c:\users\propietario\desktop\tp2\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1560483458 c:\users\propietario\desktop\tp2\utn.h
+
+1560609980 source:c:\users\propietario\desktop\tp2\employee.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Employee.h"
+
+1560609980 c:\users\propietario\desktop\tp2\employee.h
+
+1560610198 source:c:\users\propietario\desktop\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Employee.h"
+

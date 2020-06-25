@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1561656071 source:c:\users\adriana\desktop\logistica_2doparcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"entrega.h"
+	"controller.h"
+	"informes.h"
+
+1561577811 c:\users\adriana\desktop\logistica_2doparcial\linkedlist.h
+
+1561654608 c:\users\adriana\desktop\logistica_2doparcial\parser.h
+
+1560866198 c:\users\adriana\desktop\logistica_2doparcial\utn.h
+
+1561654898 c:\users\adriana\desktop\logistica_2doparcial\entrega.h
+
+1561520476 c:\users\adriana\desktop\logistica_2doparcial\controller.h
+
+1561655505 source:c:\users\adriana\desktop\logistica_2doparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"utn.h"
+
+1561656127 source:c:\users\adriana\desktop\logistica_2doparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"entrega.h"
+
+1560866198 source:c:\users\adriana\desktop\logistica_2doparcial\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1561655006 source:c:\users\adriana\desktop\logistica_2doparcial\entrega.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"entrega.h"
+	"controller.h"
+
+1561655064 source:c:\users\adriana\desktop\logistica_2doparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561655092 source:c:\users\adriana\desktop\logistica_2doparcial\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"entrega.h"
+	"controller.h"
+
+1561655945 c:\users\adriana\desktop\logistica_2doparcial\informes.h
+

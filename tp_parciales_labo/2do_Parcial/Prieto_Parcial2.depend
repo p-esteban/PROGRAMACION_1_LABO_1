@@ -1,0 +1,141 @@
+# depslib dependency file v1.0
+1561678481 source:c:\users\alumno\desktop\prieto_parcial2\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"venta.h"
+	"controller.h"
+	"informes.h"
+
+1561674465 c:\users\alumno\desktop\prieto_parcial2\linkedlist.h
+
+1561671526 c:\users\alumno\desktop\prieto_parcial2\parser.h
+
+1561670978 c:\users\alumno\desktop\prieto_parcial2\utn.h
+
+1561676928 c:\users\alumno\desktop\prieto_parcial2\venta.h
+
+1561672866 c:\users\alumno\desktop\prieto_parcial2\controller.h
+
+1561678233 source:c:\users\alumno\desktop\prieto_parcial2\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"venta.h"
+	"controller.h"
+
+1561679134 source:c:\users\alumno\desktop\prieto_parcial2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561677212 source:c:\users\alumno\desktop\prieto_parcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"utn.h"
+
+1561678789 source:c:\users\alumno\desktop\prieto_parcial2\paser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"venta.h"
+
+1561676489 source:c:\users\alumno\desktop\prieto_parcial2\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1561678775 source:c:\users\alumno\desktop\prieto_parcial2\venta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"venta.h"
+	"controller.h"
+
+1561676087 c:\users\alumno\desktop\prieto_parcial2\informes.h
+
+1561687334 source:c:\users\adriana\desktop\labo1_2doparcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"venta.h"
+	"controller.h"
+	"informes.h"
+
+1561687334 c:\users\adriana\desktop\labo1_2doparcial\linkedlist.h
+
+1561687335 c:\users\adriana\desktop\labo1_2doparcial\parser.h
+
+1561687335 c:\users\adriana\desktop\labo1_2doparcial\utn.h
+
+1561687335 c:\users\adriana\desktop\labo1_2doparcial\venta.h
+
+1561687334 c:\users\adriana\desktop\labo1_2doparcial\controller.h
+
+1561687334 c:\users\adriana\desktop\labo1_2doparcial\informes.h
+
+1561687334 source:c:\users\adriana\desktop\labo1_2doparcial\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"venta.h"
+	"controller.h"
+
+1561687334 source:c:\users\adriana\desktop\labo1_2doparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"utn.h"
+
+1561687335 source:c:\users\adriana\desktop\labo1_2doparcial\paser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"venta.h"
+
+1561687335 source:c:\users\adriana\desktop\labo1_2doparcial\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1561689806 source:c:\users\adriana\desktop\labo1_2doparcial\venta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"venta.h"
+	"controller.h"
+
+1561689194 source:c:\users\adriana\desktop\labo1_2doparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+

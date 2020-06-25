@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1557272773 source:/home/alumno/Esteban/Biblioteca/Libros.c
+
+1557272709 source:/home/alumno/Esteban/Biblioteca/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1557272826 source:/home/alumno/Esteban/Biblioteca/Prestamos.c
+
+1557272796 source:/home/alumno/Esteban/Biblioteca/Socios.c
+
+1557346986 source:c:\users\propietario\desktop\biblioteca\libros.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Autores.h"
+	"Libros.h"
+	"Socios.h"
+	"Prestamos.h"
+	"utn.h"
+
+1557351648 c:\users\propietario\desktop\biblioteca\autores.h
+
+1557351892 c:\users\propietario\desktop\biblioteca\libros.h
+
+1557347876 c:\users\propietario\desktop\biblioteca\socios.h
+
+1557356145 c:\users\propietario\desktop\biblioteca\prestamos.h
+	"Socios.h"
+	"Libros.h"
+
+1556580462 c:\users\propietario\desktop\biblioteca\utn.h
+
+1557348359 source:c:\users\propietario\desktop\biblioteca\prestamos.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Autores.h"
+	"Libros.h"
+	"Socios.h"
+	"Prestamos.h"
+	"utn.h"
+
+1556629999 source:c:\users\propietario\desktop\biblioteca\utn.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"utn.h"
+
+1557346938 source:c:\users\propietario\desktop\biblioteca\autores.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Autores.h"
+	"Libros.h"
+	"Socios.h"
+	"Prestamos.h"
+	"utn.h"
+
+1557348323 source:c:\users\propietario\desktop\biblioteca\socios.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Autores.h"
+	"Libros.h"
+	"Prestamos.h"
+	"Socios.h"
+	"utn.h"
+
+1557347426 source:c:\users\propietario\desktop\biblioteca\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Autores.h"
+	"Libros.h"
+	"Socios.h"
+	"Prestamos.h"
+	"utn.h"
+
